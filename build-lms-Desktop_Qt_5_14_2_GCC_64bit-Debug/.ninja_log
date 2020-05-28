@@ -1,0 +1,22 @@
+# ninja log v5
+139	149	1590672401352914210	CMakeFiles/lms_ru_RU.ts_lst_file	455be92a4b52423d
+116	4172	1590508612706647624	CMakeFiles/lms.dir/authwindow.cpp.o	b70484ac17b98256
+33	2284	1590527286531492213	CMakeFiles/lms.dir/accountinfo.cpp.o	90f82c22e0b8f58d
+48	4339	1590606813886801843	CMakeFiles/lms.dir/registr.cpp.o	b35f5fe6b5545f68
+225	994	1590426731677782071	CMakeFiles/lms.dir/db_common.cpp.o	f2c9bfa372281de5
+151	4482	1590672405884983282	CMakeFiles/lms.dir/lms_autogen/mocs_compilation.cpp.o	4adbe361849f6250
+4751	5318	1590672406720996022	lms	c5c7f8693e657efb
+29	3763	1590667851978189518	CMakeFiles/lms.dir/dialogsearch.cpp.o	eb71d74171a60158
+256	5480	1590430250092145039	CMakeFiles/lms.dir/registration.cpp.o	785823b8e0f471e9
+45	2472	1590671898581154035	CMakeFiles/lms.dir/dialogadd.cpp.o	9ce5375495489718
+39	2340	1590672166401315704	CMakeFiles/lms.dir/dialogdelete.cpp.o	95db6a86d30113f8
+150	4751	1590672406152987366	CMakeFiles/lms.dir/mainwindow.cpp.o	9a53e00d7ef2fe0d
+150	4317	1590672405720980783	CMakeFiles/lms.dir/main.cpp.o	613b9fc2cde65bc4
+3	139	0	lms_autogen/mocs_compilation.cpp	75f93b96d4ceaff3
+139	149	1590672401352914210	/home/gquence/STUDYING/IS/lms/lms_ru_RU.ts	455be92a4b52423d
+3	23	0	CMakeFiles/lms_autogen	75f93b96d4ceaff3
+3	23	0	lms_autogen/mocs_compilation.cpp	75f93b96d4ceaff3
+24	38	1590672465349888585	/home/gquence/STUDYING/IS/lms/lms_ru_RU.ts	455be92a4b52423d
+24	38	1590672465349888585	CMakeFiles/lms_ru_RU.ts_lst_file	455be92a4b52423d
+38	2534	1590672469553952523	CMakeFiles/lms.dir/dialogdelete.cpp.o	95db6a86d30113f8
+2534	3187	1590672470201962377	lms	c5c7f8693e657efb

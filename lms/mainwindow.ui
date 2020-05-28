@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>LMS</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">Background:rgb(255,255,255);
+Color: rgb(0, 112, 70);
+font: 63 bold 12pt &quot;URW Gothic L&quot;;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="5" column="1">
+     <widget class="QTableView" name="tableView">
+      <property name="styleSheet">
+       <string notr="true">Background:rgb(255,255,255);
+Color: rgb(0, 112, 70);
+font: 11pt &quot;Umpush&quot;;</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>600</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>URW Gothic L</family>
+     <pointsize>10</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:  rgb(169, 127, 220);
+color:   rgb(86, 14, 173);
+font: 10pt &quot;URW Gothic L&quot;;</string>
+   </property>
+   <widget class="QMenu" name="menuSubjects">
+    <property name="title">
+     <string>Subjects</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="actionCreate"/>
+    <addaction name="actionShow_all"/>
+    <addaction name="actionDelete_3"/>
+   </widget>
+   <widget class="QMenu" name="menuLessons">
+    <property name="title">
+     <string>Lessons</string>
+    </property>
+    <addaction name="actionAdd"/>
+    <addaction name="actionShow_all_2"/>
+    <addaction name="actionDelte"/>
+   </widget>
+   <widget class="QMenu" name="menuTasks">
+    <property name="title">
+     <string>Tasks</string>
+    </property>
+    <addaction name="actionAdd_3"/>
+    <addaction name="actionShow_all_4"/>
+    <addaction name="actionDelete"/>
+   </widget>
+   <widget class="QMenu" name="menuGroups">
+    <property name="title">
+     <string>Groups</string>
+    </property>
+    <addaction name="actionAdd_2"/>
+    <addaction name="actionShow_all_3"/>
+    <addaction name="actionDelete_4"/>
+   </widget>
+   <widget class="QMenu" name="menuOther">
+    <property name="title">
+     <string>Other</string>
+    </property>
+    <addaction name="actionYour_Account"/>
+    <addaction name="actionexit"/>
+    <addaction name="actionLog_out"/>
+   </widget>
+   <widget class="QMenu" name="menuUsers">
+    <property name="title">
+     <string>Users</string>
+    </property>
+    <addaction name="actionCreate_new_student"/>
+    <addaction name="actionShow_all_student"/>
+    <addaction name="actionShow_all_pedagos"/>
+    <addaction name="actionDelete_student"/>
+   </widget>
+   <widget class="QMenu" name="menuTasks_Results">
+    <property name="title">
+     <string>Tasks Results</string>
+    </property>
+    <addaction name="actionShow_all_5"/>
+    <addaction name="actionSearch"/>
+   </widget>
+   <addaction name="menuUsers"/>
+   <addaction name="menuSubjects"/>
+   <addaction name="menuLessons"/>
+   <addaction name="menuTasks"/>
+   <addaction name="menuGroups"/>
+   <addaction name="menuTasks_Results"/>
+   <addaction name="menuOther"/>
+  </widget>
+  <action name="actionYour_Account">
+   <property name="text">
+    <string>Your Account</string>
+   </property>
+  </action>
+  <action name="actionexit">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="actionCreate_new_student">
+   <property name="text">
+    <string>Create new student</string>
+   </property>
+  </action>
+  <action name="actionShow_all_student">
+   <property name="text">
+    <string>Show all students</string>
+   </property>
+  </action>
+  <action name="actionShow_all_pedagos">
+   <property name="text">
+    <string>Show all pedagos</string>
+   </property>
+  </action>
+  <action name="actionCreate">
+   <property name="text">
+    <string>Create</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Umpush</family>
+    </font>
+   </property>
+   <property name="iconVisibleInMenu">
+    <bool>false</bool>
+   </property>
+  </action>
+  <action name="actionShow_all">
+   <property name="text">
+    <string>Show all</string>
+   </property>
+  </action>
+  <action name="actionShow_all_2">
+   <property name="text">
+    <string>Show all</string>
+   </property>
+  </action>
+  <action name="actionAdd">
+   <property name="text">
+    <string>Add</string>
+   </property>
+  </action>
+  <action name="actionAdd_2">
+   <property name="text">
+    <string>Add</string>
+   </property>
+  </action>
+  <action name="actionShow_all_3">
+   <property name="text">
+    <string>Show all</string>
+   </property>
+  </action>
+  <action name="actionAdd_3">
+   <property name="text">
+    <string>Add</string>
+   </property>
+  </action>
+  <action name="actionShow_all_4">
+   <property name="text">
+    <string>Show all</string>
+   </property>
+  </action>
+  <action name="actionDelete">
+   <property name="text">
+    <string>Delete</string>
+   </property>
+  </action>
+  <action name="actionDelete_student">
+   <property name="text">
+    <string>Delete</string>
+   </property>
+  </action>
+  <action name="actionDelete_3">
+   <property name="text">
+    <string>Delete</string>
+   </property>
+  </action>
+  <action name="actionDelte">
+   <property name="text">
+    <string>Delete</string>
+   </property>
+  </action>
+  <action name="actionDelete_4">
+   <property name="text">
+    <string>Delete</string>
+   </property>
+  </action>
+  <action name="actionReload">
+   <property name="text">
+    <string>Reload</string>
+   </property>
+  </action>
+  <action name="actionLog_out">
+   <property name="text">
+    <string>Log out</string>
+   </property>
+  </action>
+  <action name="actionShow_all_5">
+   <property name="text">
+    <string>Show all</string>
+   </property>
+  </action>
+  <action name="actionSearch">
+   <property name="text">
+    <string>Search</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>accountInfo</class>
+ <widget class="QWidget" name="accountInfo">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>536</width>
+    <height>419</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background:rgb(255, 255, 255);
+Color: rgb(0, 112, 70);
+font: 63 bold 12pt &quot;URW Gothic L&quot;;
+</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QGroupBox" name="groupBox">
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="title">
+      <string>Authorization</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <layout class="QFormLayout" name="formLayout">
+        <item row="0" column="0">
+         <widget class="QLabel" name="label">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">Color: rgb(0, 112, 70)</string>
+          </property>
+          <property name="text">
+           <string>Login:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QLineEdit" name="LoginLineEdit">
+          <property name="styleSheet">
+           <string notr="true">Color: rgb(0, 112, 70)</string>
+          </property>
+          <property name="text">
+           <string notr="true"/>
+          </property>
+          <property name="echoMode">
+           <enum>QLineEdit::Normal</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0">
+         <widget class="QLabel" name="label_2">
+          <property name="styleSheet">
+           <string notr="true">
+Color: rgb(0, 112, 70)</string>
+          </property>
+          <property name="text">
+           <string>Password:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="1">
+         <widget class="QLineEdit" name="PasswordLineEdit">
+          <property name="styleSheet">
+           <string notr="true">Color: rgb(0, 112, 70)</string>
+          </property>
+          <property name="text">
+           <string notr="true"/>
+          </property>
+          <property name="echoMode">
+           <enum>QLineEdit::Normal</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="0">
+         <widget class="QLabel" name="label_3">
+          <property name="styleSheet">
+           <string notr="true">
+Color: rgb(0, 112, 70)</string>
+          </property>
+          <property name="text">
+           <string>Surname:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="1">
+         <widget class="QLineEdit" name="SurnameLineEdit">
+          <property name="styleSheet">
+           <string notr="true">Color: rgb(0, 112, 70)</string>
+          </property>
+          <property name="text">
+           <string notr="true"/>
+          </property>
+          <property name="echoMode">
+           <enum>QLineEdit::Normal</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="0">
+         <widget class="QLabel" name="label_4">
+          <property name="styleSheet">
+           <string notr="true">
+Color: rgb(0, 112, 70)</string>
+          </property>
+          <property name="text">
+           <string>Name:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="1">
+         <widget class="QLineEdit" name="NameLineEdit">
+          <property name="styleSheet">
+           <string notr="true">Color: rgb(0, 112, 70)</string>
+          </property>
+          <property name="text">
+           <string notr="true"/>
+          </property>
+          <property name="echoMode">
+           <enum>QLineEdit::Normal</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="8" column="0">
+         <widget class="QLabel" name="label_5">
+          <property name="styleSheet">
+           <string notr="true">
+Color: rgb(0, 112, 70)</string>
+          </property>
+          <property name="text">
+           <string>E-mail:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="8" column="1">
+         <widget class="QLineEdit" name="EmailLineEdit">
+          <property name="styleSheet">
+           <string notr="true">Color: rgb(0, 112, 70)</string>
+          </property>
+          <property name="text">
+           <string notr="true"/>
+          </property>
+          <property name="echoMode">
+           <enum>QLineEdit::Normal</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="1">
+         <widget class="QLabel" name="password_warn">
+          <property name="styleSheet">
+           <string notr="true">Background:rgb(255,255,255);
+Color: rgb(255, 79, 0);
+font: 63 bold 10pt &quot;URW Gothic L&quot;;</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="1">
+         <widget class="QLabel" name="surname_warn">
+          <property name="styleSheet">
+           <string notr="true">Background:rgb(255,255,255);
+Color: rgb(255, 79, 0);
+font: 63 bold 10pt &quot;URW Gothic L&quot;;</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="7" column="1">
+         <widget class="QLabel" name="name_warn">
+          <property name="styleSheet">
+           <string notr="true">Background:rgb(255,255,255);
+Color: rgb(255, 79, 0);
+font: 63 bold 10pt &quot;URW Gothic L&quot;;</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="9" column="1">
+         <widget class="QLabel" name="email_warn">
+          <property name="styleSheet">
+           <string notr="true">Background:rgb(255,255,255);
+Color: rgb(255, 79, 0);
+font: 63 bold 10pt &quot;URW Gothic L&quot;;</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QPushButton" name="update">
+        <property name="text">
+         <string>Change something</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QGridLayout" name="gridLayout_2">
+        <item row="0" column="0">
+         <widget class="QPushButton" name="ExitBtn">
+          <property name="styleSheet">
+           <string notr="true">Color: rgb(255, 79, 0);</string>
+          </property>
+          <property name="text">
+           <string>Exit</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QPushButton" name="returnBtn">
+          <property name="text">
+           <string>Return</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
