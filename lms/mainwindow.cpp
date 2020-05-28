@@ -18,12 +18,12 @@ MainWindow::MainWindow(QWidget *parent)
     TTU_model = nullptr;
     tmp_model = nullptr;
     item = nullptr;
-    login = "NChernova";
+    login = "";
     responseFromChild = "";
     ui->tableView->setEditTriggers(QAbstractItemView::NoEditTriggers);
     auth_window = new AuthWindow(this, &login);
     auth_window->setModal(true);
-    //auth_window->exec();
+    auth_window->exec();
 
 }
 
