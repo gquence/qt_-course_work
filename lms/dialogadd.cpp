@@ -81,22 +81,27 @@ void DialogAdd::on_PassLineEdit_textChanged(const QString &arg1)
 #include <QDebug>
 void DialogAdd::clickedAddBtn()
 {
-    QString login, password;
     QNetworkAccessManager * manager = new QNetworkAccessManager(this);
     const QUrl url = QUrl(qreq_url);
     QNetworkRequest request(url);
     QByteArray data;
-    QString data_str = "type=POST&";
+    QString data_str = "type=POST&sOp=true&";
     QString buf1= "", buf2 = "";
 
     this->setWindowTitle("Checking...");
     connect(manager, &QNetworkAccessManager::finished,
-            this, &DialogAdd::AddResponse); //responseReceived - response handler
+            this, &DialogAdd::AddResponse); //AddResponse - response handler
 
     for (int i = 0; i < this->types_of_lines.length(); i++)
     {
         switch (this->types_of_lines[i])
         {
+            case ((int)Login):
+                data_str += "login=";
+                break;
+            case ((int)Password):
+                data_str += "pass=";
+                break;
             case ((int)id):
                 data_str += "id=";
                 break;
@@ -168,13 +173,12 @@ void DialogAdd::clickedAddBtn()
     manager->post(request ,data);
 }
 
-
 void DialogAdd::AddResponse(QNetworkReply *reply)
 {
     QByteArray data = reply->readAll();
     QString data_str(data);
     this->setWindowTitle("Reading results");
-
+    //qInfo() << data_str;
     if (data_str.startsWith("301\nInvalidJsonValues: Login must be unique\nPOST"))
     {
         QMessageBox::critical(this, "Failed", "Login is not unique");

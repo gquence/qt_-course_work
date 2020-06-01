@@ -195,7 +195,7 @@
     </message>
     <message>
         <location filename="accountinfo.ui" line="29"/>
-        <source>Authorization</source>
+        <source>Your account</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

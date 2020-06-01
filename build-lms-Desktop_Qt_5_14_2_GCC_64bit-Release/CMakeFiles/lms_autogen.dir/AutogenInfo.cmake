@@ -1,0 +1,35 @@
+# Meta
+set(AM_MULTI_CONFIG "FALSE")
+set(AM_PARALLEL "2")
+set(AM_VERBOSITY "")
+# Directories
+set(AM_CMAKE_SOURCE_DIR "/home/gquence/STUDYING/IS/lms")
+set(AM_CMAKE_BINARY_DIR "/home/gquence/STUDYING/IS/build-lms-Desktop_Qt_5_14_2_GCC_64bit-Release")
+set(AM_CMAKE_CURRENT_SOURCE_DIR "/home/gquence/STUDYING/IS/lms")
+set(AM_CMAKE_CURRENT_BINARY_DIR "/home/gquence/STUDYING/IS/build-lms-Desktop_Qt_5_14_2_GCC_64bit-Release")
+set(AM_CMAKE_INCLUDE_DIRECTORIES_PROJECT_BEFORE "")
+set(AM_BUILD_DIR "/home/gquence/STUDYING/IS/build-lms-Desktop_Qt_5_14_2_GCC_64bit-Release/lms_autogen")
+set(AM_INCLUDE_DIR "/home/gquence/STUDYING/IS/build-lms-Desktop_Qt_5_14_2_GCC_64bit-Release/lms_autogen/include")
+# Files
+set(AM_SOURCES "/home/gquence/STUDYING/IS/lms/accountinfo.cpp;/home/gquence/STUDYING/IS/lms/authwindow.cpp;/home/gquence/STUDYING/IS/lms/dialogadd.cpp;/home/gquence/STUDYING/IS/lms/dialogdelete.cpp;/home/gquence/STUDYING/IS/lms/dialogsearch.cpp;/home/gquence/STUDYING/IS/lms/main.cpp;/home/gquence/STUDYING/IS/lms/mainwindow.cpp;/home/gquence/STUDYING/IS/lms/registr.cpp")
+set(AM_HEADERS "/home/gquence/STUDYING/IS/lms/accountinfo.h;/home/gquence/STUDYING/IS/lms/authwindow.h;/home/gquence/STUDYING/IS/lms/dialogadd.h;/home/gquence/STUDYING/IS/lms/dialogdelete.h;/home/gquence/STUDYING/IS/lms/dialogsearch.h;/home/gquence/STUDYING/IS/lms/mainwindow.h;/home/gquence/STUDYING/IS/lms/registr.h")
+set(AM_SETTINGS_FILE "/home/gquence/STUDYING/IS/build-lms-Desktop_Qt_5_14_2_GCC_64bit-Release/CMakeFiles/lms_autogen.dir/AutogenOldSettings.txt")
+# Qt
+set(AM_QT_VERSION_MAJOR 5)
+set(AM_QT_MOC_EXECUTABLE "/home/gquence/bin/Qt_source/5.14.2/gcc_64/bin/moc")
+set(AM_QT_UIC_EXECUTABLE "/home/gquence/bin/Qt_source/5.14.2/gcc_64/bin/uic")
+# MOC settings
+set(AM_MOC_SKIP "")
+set(AM_MOC_DEFINITIONS "QT_CORE_LIB;QT_GUI_LIB;QT_NETWORK_LIB;QT_NO_DEBUG;QT_WIDGETS_LIB")
+set(AM_MOC_INCLUDES "/home/gquence/STUDYING/IS/build-lms-Desktop_Qt_5_14_2_GCC_64bit-Release;/home/gquence/STUDYING/IS/lms;/home/gquence/bin/Qt_source/5.14.2/gcc_64/include;/home/gquence/bin/Qt_source/5.14.2/gcc_64/include/QtWidgets;/home/gquence/bin/Qt_source/5.14.2/gcc_64/include/QtGui;/home/gquence/bin/Qt_source/5.14.2/gcc_64/include/QtCore;/home/gquence/bin/Qt_source/5.14.2/gcc_64/./mkspecs/linux-g++;/home/gquence/bin/Qt_source/5.14.2/gcc_64/include/QtNetwork;/usr/include")
+set(AM_MOC_OPTIONS "")
+set(AM_MOC_RELAXED_MODE "")
+set(AM_MOC_MACRO_NAMES "Q_OBJECT;Q_GADGET;Q_NAMESPACE;Q_NAMESPACE_EXPORT")
+set(AM_MOC_DEPEND_FILTERS "")
+set(AM_MOC_PREDEFS_CMD "/usr/bin/g++;-dM;-E;-c;/usr/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp")
+# UIC settings
+set(AM_UIC_SKIP "")
+set(AM_UIC_TARGET_OPTIONS "")
+set(AM_UIC_OPTIONS_FILES "")
+set(AM_UIC_OPTIONS_OPTIONS "")
+set(AM_UIC_SEARCH_PATHS "")

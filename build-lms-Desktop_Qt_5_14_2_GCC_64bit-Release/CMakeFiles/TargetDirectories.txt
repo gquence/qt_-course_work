@@ -1,0 +1,4 @@
+/home/gquence/STUDYING/IS/build-lms-Desktop_Qt_5_14_2_GCC_64bit-Release/CMakeFiles/rebuild_cache.dir
+/home/gquence/STUDYING/IS/build-lms-Desktop_Qt_5_14_2_GCC_64bit-Release/CMakeFiles/lms.dir
+/home/gquence/STUDYING/IS/build-lms-Desktop_Qt_5_14_2_GCC_64bit-Release/CMakeFiles/edit_cache.dir
+/home/gquence/STUDYING/IS/build-lms-Desktop_Qt_5_14_2_GCC_64bit-Release/CMakeFiles/lms_autogen.dir

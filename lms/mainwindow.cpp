@@ -20,6 +20,8 @@ MainWindow::MainWindow(QWidget *parent)
     item = nullptr;
     login = "";
     responseFromChild = "";
+    ui->menuGroups->hideTearOffMenu();
+    ui->menuGroups->hide();
     ui->tableView->setEditTriggers(QAbstractItemView::NoEditTriggers);
     auth_window = new AuthWindow(this, &login);
     auth_window->setModal(true);
@@ -546,7 +548,7 @@ void MainWindow::on_actionSearch_triggered()
 
 void MainWindow::on_actionCreate_new_student_triggered()
 {
-    QVector<QPair<QString, types_add>> rows(4);
+    QVector<QPair<QString, types_add>> rows(5);
     rows[0].first = "Login";
     rows[0].second = Login;
     rows[1].first = "Password";
@@ -555,8 +557,8 @@ void MainWindow::on_actionCreate_new_student_triggered()
     rows[2].second = surname;
     rows[3].first = "Name";
     rows[3].second = name;
-    rows[3].first = "Email";
-    rows[3].second = email;
+    rows[4].first = "Email";
+    rows[4].second = email;
 
     if ((this->dialog_window) != nullptr)
     {
