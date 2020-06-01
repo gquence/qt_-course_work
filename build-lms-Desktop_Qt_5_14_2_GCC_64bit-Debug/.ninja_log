@@ -78,3 +78,13 @@
 24	59	0	lms_autogen/mocs_compilation.cpp	75f93b96d4ceaff3
 1	21	0	CMakeFiles/lms_autogen	75f93b96d4ceaff3
 1	21	0	lms_autogen/mocs_compilation.cpp	75f93b96d4ceaff3
+3	237	0	CMakeFiles/lms_autogen	75f93b96d4ceaff3
+3	237	0	lms_autogen/mocs_compilation.cpp	75f93b96d4ceaff3
+237	259	1590999637378930829	/home/gquence/STUDYING/IS/lms/lms_ru_RU.ts	455be92a4b52423d
+237	259	1590999637378930829	CMakeFiles/lms_ru_RU.ts_lst_file	455be92a4b52423d
+272	6202	1590999715656188893	CMakeFiles/lms.dir/lms_autogen/mocs_compilation.cpp.o	4adbe361849f6250
+268	6288	1590999715744190308	CMakeFiles/lms.dir/dialogdelete.cpp.o	95db6a86d30113f8
+259	6636	1590999716092195900	CMakeFiles/lms.dir/main.cpp.o	613b9fc2cde65bc4
+267	6791	1590999716248198408	CMakeFiles/lms.dir/dialogadd.cpp.o	9ce5375495489718
+261	7139	1590999716592203937	CMakeFiles/lms.dir/mainwindow.cpp.o	9a53e00d7ef2fe0d
+7139	7857	1590999717308215444	lms	c5c7f8693e657efb

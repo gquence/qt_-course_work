@@ -13,7 +13,7 @@ class DialogDelete : public QDialog
     Q_OBJECT
 
 public:
-    explicit DialogDelete(QWidget *parent = nullptr, QVector<QPair<QString, types_add>> rows = QVector<QPair<QString, types_add>>(), QString req_url = QString());
+    explicit DialogDelete(QWidget *parent = nullptr, QVector<QPair<QString, types_add>> rows = QVector<QPair<QString, types_add>>(), QString req_url = QString(), QString qlogin = QString());
     ~DialogDelete();
 private slots:
 
@@ -33,6 +33,7 @@ private:
     QVector<types_add>  types_of_lines;
     QVector<bool>       validate_fields;
     QString qreq_url;
+    QString llogin;
 };
 
 #endif // DIALOGDELETE_H

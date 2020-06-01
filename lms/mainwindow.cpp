@@ -582,7 +582,7 @@ void MainWindow::on_actionDelete_student_triggered()
         delete (this->dialog_window);
         this->dialog_window = nullptr;
     }
-    this->dialog_window = new DialogDelete(this, rows, "http://localhost/t_users/CRUD_user.php");
+    this->dialog_window = new DialogDelete(this, rows, "http://localhost/t_users/CRUD_user.php", this->login);
     this->dialog_window->setModal(true);
     this->dialog_window->setWindowTitle("Delete student");
     this->dialog_window->exec();
@@ -697,7 +697,7 @@ void MainWindow::on_actionDelete_3_triggered()
         delete (this->dialog_window);
         this->dialog_window = nullptr;
     }
-    this->dialog_window = new DialogDelete(this, rows, "http://localhost/t_subjects/CRUD_subjects.php");
+    this->dialog_window = new DialogDelete(this, rows, "http://localhost/t_subjects/CRUD_subjects.php", this->login);
     this->dialog_window->setModal(true);
     this->dialog_window->setWindowTitle("Delete Subject");
     this->dialog_window->exec();
@@ -714,7 +714,7 @@ void MainWindow::on_actionDelte_triggered()
         delete (this->dialog_window);
         this->dialog_window = nullptr;
     }
-    this->dialog_window = new DialogDelete(this, rows, "http://localhost/t_lessons/CRUD_lessons.php");
+    this->dialog_window = new DialogDelete(this, rows, "http://localhost/t_lessons/CRUD_lessons.php", this->login);
     this->dialog_window->setModal(true);
     this->dialog_window->setWindowTitle("Delete Lesson");
     this->dialog_window->exec();
@@ -731,7 +731,7 @@ void MainWindow::on_actionDelete_triggered()
         delete (this->dialog_window);
         this->dialog_window = nullptr;
     }
-    this->dialog_window = new DialogDelete(this, rows, "http://localhost/t_tasks/CRUD_tasks.php");
+    this->dialog_window = new DialogDelete(this, rows, "http://localhost/t_tasks/CRUD_tasks.php", this->login);
     this->dialog_window->setModal(true);
     this->dialog_window->setWindowTitle("Delete Task");
     this->dialog_window->exec();
@@ -748,7 +748,7 @@ void MainWindow::on_actionDelete_4_triggered()
         delete (this->dialog_window);
         this->dialog_window = nullptr;
     }
-    this->dialog_window = new DialogDelete(this, rows, "http://localhost/t_groups/CRUD_groups.php");
+    this->dialog_window = new DialogDelete(this, rows, "http://localhost/t_groups/CRUD_groups.php", this->login);
     this->dialog_window->setModal(true);
     this->dialog_window->setWindowTitle("Delete Group");
     this->dialog_window->exec();

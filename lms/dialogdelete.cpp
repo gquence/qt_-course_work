@@ -2,7 +2,7 @@
 #include "ui_dialogdelete.h"
 #include <QMessageBox>
 
-DialogDelete::DialogDelete(QWidget *parent, QVector<QPair<QString, types_add>> rows,  QString req_url) :
+DialogDelete::DialogDelete(QWidget *parent, QVector<QPair<QString, types_add>> rows,  QString req_url,  QString qlogin) :
     QDialog(parent),
     ui(new Ui::DialogDelete)
 {
@@ -15,6 +15,7 @@ DialogDelete::DialogDelete(QWidget *parent, QVector<QPair<QString, types_add>> r
     ui->gridLayout->addWidget(warnLabel,rows.length(), 1);
     ui->groupBox->setTitle("");
 
+    llogin = qlogin;
     DeleteBtn = new QPushButton;
     DeleteBtn->setText("Delete");
     connect(DeleteBtn,SIGNAL(clicked()), this, SLOT(clickedDeleteBtn()));
@@ -108,9 +109,16 @@ void DialogDelete::clickedDeleteBtn()
             default:
                 return;
         }
+        if (this->types_of_lines[i] == (int)Login)
+        {
+            if (!QString::compare(this->lines[i].second->text(), this->llogin))
+            {
+                QMessageBox::critical(this, "Failed", "You cannot delete yourself");
+                return ;
+            }
+        }
         data_str += this->lines[i].second->text() + "&";
     }
-
     data.append((const QString &)data_str); // bytearray to string
     manager->post(request ,data);
 }

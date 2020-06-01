@@ -214,7 +214,7 @@ public:
     void retranslateUi(QWidget *accountInfo)
     {
         accountInfo->setWindowTitle(QCoreApplication::translate("accountInfo", "Form", nullptr));
-        groupBox->setTitle(QCoreApplication::translate("accountInfo", "Authorization", nullptr));
+        groupBox->setTitle(QCoreApplication::translate("accountInfo", "Your account", nullptr));
         label->setText(QCoreApplication::translate("accountInfo", "Login:", nullptr));
         label_2->setText(QCoreApplication::translate("accountInfo", "Password:", nullptr));
         label_3->setText(QCoreApplication::translate("accountInfo", "Surname:", nullptr));
